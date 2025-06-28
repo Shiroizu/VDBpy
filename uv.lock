@@ -136,18 +136,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/a7/c2/fe1e52489ae3122415c51f387e221dd0773709bad6c6cdaa599e8a2c5185/urllib3-2.5.0-py3-none-any.whl", hash = "sha256:e6b01673c0fa6a13e374b50871808eb3bf7046c4b125b216f6bf1cc604cff0dc", size = 129795, upload-time = "2025-06-18T14:07:40.39Z" },
 ]
 
-[[package]]
-name = "vdbpy"
-version = "0.1.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "diskcache" },
-    { name = "plotly" },
-    { name = "python-dateutil" },
-    { name = "requests" },
-    { name = "tabulate" },
-]
-
 [package.metadata]
 requires-dist = [
     { name = "diskcache", specifier = "==5.6.3" },
