@@ -2,7 +2,6 @@
 .venv
 *__pycache__*
 *history*
-test.py
 *cache*
 *.csv
 logs
