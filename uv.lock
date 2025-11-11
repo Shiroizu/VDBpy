@@ -332,7 +332,7 @@ wheels = [
 
 [[package]]
 name = "vdbpy"
-version = "12.0.0"
+version = "12.2.0"
 source = { virtual = "." }
 dependencies = [
     { name = "coverage" },
