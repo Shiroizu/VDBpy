@@ -238,6 +238,15 @@ wheels = [
 ]
 
 [[package]]
+name = "plotly-stubs"
+version = "0.1.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/05/e1/0bbb15fb32651e1e465b753bc875f30ff6863235e8d9009e40d9eaab5df3/plotly_stubs-0.1.2.tar.gz", hash = "sha256:23bb0bbb4ac5cbd7dbdae3c4d6b4ea488842a59bad7111980b2b43d6788cdd64", size = 163712, upload-time = "2025-12-23T18:11:19.421Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/9f/d0/36a967904af083c29eefc6c82016260dda00aec23fa5272c300643775b12/plotly_stubs-0.1.2-py3-none-any.whl", hash = "sha256:d3ddcc534d19dec93e3f6f94e214a33209a1c20860a0c350b0c3cbdce5232123", size = 106437, upload-time = "2025-12-23T18:11:17.73Z" },
+]
+
+[[package]]
 name = "pydeps"
 version = "3.0.1"
 source = { registry = "https://pypi.org/simple" }
@@ -390,6 +399,7 @@ dependencies = [
     { name = "diskcache" },
     { name = "genbadge" },
     { name = "plotly" },
+    { name = "plotly-stubs" },
     { name = "pydeps" },
     { name = "python-dateutil" },
     { name = "requests" },
@@ -405,6 +415,7 @@ requires-dist = [
     { name = "diskcache", specifier = "==5.6.3" },
     { name = "genbadge", specifier = ">=1.1.2" },
     { name = "plotly", specifier = "==5.17.0" },
+    { name = "plotly-stubs", specifier = "==0.1.2" },
     { name = "pydeps", specifier = ">=3.0.1" },
     { name = "python-dateutil", specifier = "==2.9.0.post0" },
     { name = "requests", specifier = "==2.32.4" },
