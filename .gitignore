@@ -10,3 +10,4 @@ coverage.xml
 edits_by_date
 openapi-reference.json
 temp
+testing.py
