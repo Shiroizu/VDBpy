@@ -12,3 +12,11 @@ openapi-reference.json
 temp
 testing.py
 credentials.env
+vdbpy.egg-info/dependency_links.txt
+.gitignore
+vdbpy.egg-info/requires.txt
+vdbpy.egg-info/top_level.txt
+.gitignore
+vdbpy.egg-info/PKG-INFO
+.gitignore
+vdbpy.egg-info/SOURCES.txt
