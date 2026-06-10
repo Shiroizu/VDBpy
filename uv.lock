@@ -454,7 +454,7 @@ wheels = [
 
 [[package]]
 name = "vdbpy"
-version = "20.9.0"
+version = "20.10.0"
 source = { editable = "." }
 dependencies = [
     { name = "coverage" },
